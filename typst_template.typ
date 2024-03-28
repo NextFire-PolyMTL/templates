@@ -29,6 +29,7 @@
     strong(it)
   }
 
+  show image: it => align(it, center)
   show link: it => {
     underline(stroke: (dash: "densely-dotted"), it)
   }
